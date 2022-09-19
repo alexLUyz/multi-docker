@@ -13,3 +13,4 @@ after_success:
   - docker build -t blex/multi-nginx ./nginx
   - docker build -t blex/multi-server ./server
   - docker build -t blex/multi-worker ./worker
+  # Take those images and push them to docker hub 
